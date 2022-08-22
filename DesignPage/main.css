@@ -1,0 +1,65 @@
+header nav .mainBlock{
+   
+    align-items: stretch;
+    background: url(img/background.jpg) no-repeat;
+    background-size: 1600px;
+    height: 2000px;
+    
+}
+body{
+  
+    background: url(img/gym.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    
+  }
+.mainBlock img {
+    width: 1600px;
+}
+header nav .logo {
+    display: flex;
+    background: url(img/Logo.png) no-repeat;
+    background-size: 150px;
+    width: 200px;
+    height: 180px;
+    margin: 20px;
+    float: left;
+    color: black;
+    align-items: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 20px;
+   
+
+  }
+header nav .mainBlock .topNav{
+    display: flex;
+    align-items: stretch;
+    background: linear-gradient(to bottom right, black, white);
+    text-decoration: none;
+    font-family: 'Consolas';
+    font-size: 30px;
+    height: 50px;
+    width: 1330px;
+    
+}
+header nav .mainBlock .topNav .linkDiv{
+    
+    padding-top: 10px;
+    background: url('img/link.png') no-repeat;
+    width: 30px;
+    padding-top: 30px;
+    margin-top: 10px;
+    background-size: 20px;
+}
+header nav .mainBlock .topNav a{
+
+    padding-left: 30px;
+}
+
+

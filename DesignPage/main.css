@@ -10,6 +10,7 @@ body{
   
     background: url(img/gym.jpg) no-repeat;
     background-size: 100% 100%;
+
 }
 .container {
     width: 1600px;
@@ -33,21 +34,34 @@ header nav .logo {
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
-    border-radius: 20px;
+    
    
 
   }
 header nav .mainBlock .topNav{
+
+    color: #8b582e;
     display: flex;
-    align-items: stretch;
+   
     background: linear-gradient(to bottom right, black, white);
     text-decoration: none;
     font-family: 'Consolas';
     font-size: 30px;
     height: 50px;
-    width: 1330px;
-    
+    width: 1000px;
+
 }
+header nav .mainBlock .login{
+    background: url(img/logIn.png) no-repeat;
+    background-size: 300px;
+}
+header nav .info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(230, 233, 235);
+    font-size: 100px;
+    text-align: center;
+}
+
 header nav .mainBlock .topNav .linkDiv{
     
     padding-top: 10px;
@@ -58,7 +72,9 @@ header nav .mainBlock .topNav .linkDiv{
     background-size: 20px;
 }
 header nav .mainBlock .topNav a{
-
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
     padding-left: 30px;
 }
 

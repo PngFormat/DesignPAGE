@@ -1,9 +1,13 @@
 header nav .mainBlock{
-   
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    background: #eee; 
+    margin: auto;
+    padding: 15px 25px;
     align-items: stretch;
     background: url(img/background.jpg) no-repeat;
     background-size: 1600px;
-    height: 2000px;
+    height: 1000px;
     
 }
 body{
@@ -42,18 +46,32 @@ header nav .mainBlock .topNav{
 
     color: #8b582e;
     display: flex;
-   
-    background: linear-gradient(to bottom right, black, white);
+    align-items: stretch;
+    margin-top: 30px;
+    
     text-decoration: none;
     font-family: 'Consolas';
     font-size: 30px;
     height: 50px;
-    width: 1000px;
+    width: 920px;
 
 }
-header nav .mainBlock .login{
+header nav .mainBlock .topNav .login{
+    opacity: 0.8;
+    display: flex;
     background: url(img/logIn.png) no-repeat;
-    background-size: 300px;
+    background-size: 60px;
+    width: 100px;
+    height: 180px;
+    margin-left: 100px;
+    float: left;
+    border: none;
+    align-items: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+     
 }
 header nav .info{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -63,7 +81,8 @@ header nav .info{
 }
 
 header nav .mainBlock .topNav .linkDiv{
-    
+    background-color: #2189a8;
+    padding: 10px 13px;
     padding-top: 10px;
     background: url('img/link.png') no-repeat;
     width: 30px;
@@ -72,10 +91,94 @@ header nav .mainBlock .topNav .linkDiv{
     background-size: 20px;
 }
 header nav .mainBlock .topNav a{
-    color: white;
-    font-size: 35px;
+   
+    display: inline-flex;
+    margin: 2px;
     text-decoration: none;
-    padding-left: 30px;
+    position: relative;
+    font-size: 20px;
+    height: 15px;
+    padding: 12px 30px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', Тahoma, sans-serif;
+    background: #337AB7;
+    cursor: pointer;
+    border: 2px solid #BFE2FF;
 }
+header nav .mainBlock h1 {
+    display: flex;
+    align-items:flex-end;
+ 
+    font-size:60px;
+    color:rgba(19, 178, 226, 0.986);
+    position:relative;
+    left:0;
+    text-shadow:
+    1px 1px 0px #2189a8,
+    2px 2px 0px #b4d1d9,
+    3px 3px 0px #a6c6cf,
+    4px 4px 0px #94b8c3,
+    5px 5px 0px #87aeb9,
+    6px 6px 0px #7aa3af,
+    7px 7px 0px #6d97a3,
+    8px 8px 0px #618b98,
+    9px 9px 0px #56818e,
+    10px 10px 0px #4c7683,
+    15px 15px 25px rgba(16, 169, 189, 0.9);
+    transition: .5s ease-in-out;
+   }
+    
+   header nav .mainBlock h1:hover {
+    left:20px;
+    
+    text-shadow:
+    -1px 1px 0px #20c0c0,
+    -2px 2px 0px #b4d1d9,
+    -3px 3px 0px #a6c6cf,
+    -4px 4px 0px #94b8c3,
+    -5px 5px 0px #87aeb9,
+    -6px 6px 0px #7aa3af,
+    -7px 7px 0px #6d97a3,
+    -8px 8px 0px #618b98,
+    -9px 9px 0px #56818e,
+    -10px 10px 0px #1698c0,
+    -15px 15px 25px rgba(0,0,0,.9);
+   }
 
+header nav .mainBlock .motivation{
+    width: 400px;
+    margin-top: 300px;
+    margin-left: 30px;
+}
+header nav .mainBlock .information{
+    width:400px;
+    display: flex;
+    align-items:flex-end;
+    margin-left: 30px;
+    font-size:20px;
+    color:rgba(19, 178, 226, 0.986);
+    position:relative;
+    left:0;
+}
+header nav .mainBlock .partners{
+    opacity:0.9;
+    border-radius: 30px;
+    background-color: #3e5055;
+    font-size: 20px;
+    display: flex;
+    align-items: stretch;
+    height: 120px;
+    width: 670px;
+    background-size: 100px;
+    margin-left: 30px;
+    margin-top: 40px;
+   
+}
+header nav .mainBlock .partners img{
+    margin-top: 10px;
+    border-right: 5px solid #0892e2;
+    padding: 0px 30px;
+}
 

@@ -56,12 +56,12 @@ header nav .mainBlock .topNav{
     width: 920px;
 
 }
-header nav .mainBlock .topNav .login{
+header nav .mainBlock .topNav .login, header nav .mainBlock .topNav .sign{
     opacity: 0.8;
     display: flex;
     background: url(img/logIn.png) no-repeat;
     background-size: 60px;
-    width: 100px;
+    width: 70px;
     height: 180px;
     margin-left: 100px;
     float: left;
@@ -72,6 +72,13 @@ header nav .mainBlock .topNav .login{
     font-size: 18px;
     line-height: 25px;
      
+}
+header nav .mainBlock .topNav .sign{
+    background: url(img/sign_up.png) no-repeat;
+    background-size: 100px;
+    height: 50px;
+    width: 100px;
+    margin-left: 0px;
 }
 header nav .info{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -88,17 +95,18 @@ header nav .mainBlock .topNav .linkDiv{
     width: 30px;
     padding-top: 30px;
     margin-top: 10px;
-    background-size: 20px;
+    background-size: 30px;
 }
 header nav .mainBlock .topNav a{
    
     display: inline-flex;
+    width: 100px;
     margin: 2px;
     text-decoration: none;
     position: relative;
     font-size: 20px;
     height: 15px;
-    padding: 12px 30px;
+    padding: 15px 35px;
     color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
@@ -148,9 +156,18 @@ header nav .mainBlock h1 {
    }
 
 header nav .mainBlock .motivation{
+ 
     width: 400px;
-    margin-top: 300px;
+    margin-top: 270px;
     margin-left: 30px;
+}
+header nav .mainBlock .motivation .line hr{
+    border: 5px;
+    height: 10px;
+    background-image: -webkit-linear-gradient(left, rgba(26, 94, 197, 0.815), rgba(32, 42, 184, 0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(31, 82, 177, 0.521), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(21, 144, 160, 0.712), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 header nav .mainBlock .information{
     width:400px;
@@ -162,10 +179,10 @@ header nav .mainBlock .information{
     position:relative;
     left:0;
 }
-header nav .mainBlock .partners{
+header nav .mainBlock .flexPosition .partners{
     opacity:0.9;
     border-radius: 30px;
-    background-color: #3e5055;
+    background: url(img/backgroundPart.jpg);
     font-size: 20px;
     display: flex;
     align-items: stretch;
@@ -176,9 +193,48 @@ header nav .mainBlock .partners{
     margin-top: 40px;
    
 }
+header nav .mainBlock .flexPosition .socialMedia{
+    border-radius: 10px;
+    background: url(img/backgroundPart.jpg);
+    opacity: 0.8;
+    margin-left: auto;
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: 30px;
+    
+}
+header nav .mainBlock .flexPosition .socialMedia img{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+header nav .mainBlock .text{
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    font-family: 'Consolas';
+    margin-left: auto;
+    font-size: 17px;
+    font-weight: 900;
+    margin-left: 1140px;
+    color: #609dc0;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 10px;
+    
+}
+header nav .mainBlock .flexPosition{
+    display: flex;
+    align-items: stretch;
+}
 header nav .mainBlock .partners img{
     margin-top: 10px;
-    border-right: 5px solid #0892e2;
+    
+    padding: 0px 30px;
+}
+header nav .mainBlock .partners .socialMedia img{
+    margin-top: 10px;
+    border: none;
     padding: 0px 30px;
 }
 
